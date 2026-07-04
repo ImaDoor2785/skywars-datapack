@@ -1,0 +1,1 @@
+execute at @e[tag=spawnloot] run team join Alive @a[distance=..2]
