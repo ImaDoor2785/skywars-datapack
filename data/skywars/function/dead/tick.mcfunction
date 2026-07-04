@@ -1,0 +1,1 @@
+execute as @a[scores={dead=1..},limit=1] run function skywars:dead/dead
