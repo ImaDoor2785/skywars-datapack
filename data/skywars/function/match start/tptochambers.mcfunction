@@ -1,1 +1,0 @@
-execute as @e[tag=spawn1] at @e[tag=base] run tp @r[distance=..13] @s
