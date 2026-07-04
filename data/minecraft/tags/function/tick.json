@@ -1,5 +1,7 @@
 {
    "values":[
-     "skywars:tick"
+     "skywars:tick",
+     "skywars:match_end/enddetection"
+
    ]
  }
