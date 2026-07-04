@@ -37,3 +37,7 @@ execute as @e[tag=spawn11] at @e[tag=base] run tp @r[distance=..13] @s
 execute as @e[tag=spawn11] at @e[tag=base] run tp @r[distance=..13] @s
 execute as @e[tag=spawn12] at @e[tag=base] run tp @r[distance=..13] @s
 execute as @e[tag=spawn12] at @e[tag=base] run tp @r[distance=..13] @s
+
+function skywars:countdown/5
+function skywars:chests/mid
+function skywars:chests/spawn
