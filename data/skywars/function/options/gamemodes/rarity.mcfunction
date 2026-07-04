@@ -1,0 +1,1 @@
+scoreboard objectives add loot-rarity dummy "Loot Rarity"
