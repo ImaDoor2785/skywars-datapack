@@ -8,3 +8,4 @@ execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus4 ~-6
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus3 ~36 ~-78 ~-58
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus2 ~-12 ~-78 ~-58
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus1 ~-60 ~-78 ~-58
+function skywars:match_start/tptochambers
