@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "weight": 1,
+          "functions": [
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "THE THRONGLER",
+              "color": "#a51d2d",
+              "bold": true,
+              "italic": false
+             }
+            },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+              {
+                "text": "Used for Throngling",
+                "color": "#613583"
+              }
+            ],
+            "mode": "insert"
+            },
+            {
+            "function": "minecraft:set_enchantments",
+            "levels": 0,
+            "enchantments": {
+              "minecraft:infinity": 1
+            }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
