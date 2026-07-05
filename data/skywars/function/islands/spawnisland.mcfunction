@@ -1,0 +1,1 @@
+execute as @e[tag=base] at @e[tag=base] run place template skywars:base ~12 ~-2 ~-12
