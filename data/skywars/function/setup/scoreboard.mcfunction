@@ -8,3 +8,4 @@ scoreboard objectives add mode dummy Mode
 scoreboard objectives add team dummy Team
 scoreboard objectives add music dummy Music
 scoreboard objectives add kills dummy Kills
+function skywars:setup/teams
