@@ -6,4 +6,4 @@ effect give @a[nbt={Inventory:[{id:"minecraft:mace"}]}] minecraft:glowing infini
 effect clear @a[nbt=!{Inventory:[{id:"minecraft:mace"}]}] minecraft:glowing
 #Border
 execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-35 ~-70 air outline
-execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[team=!dead,distance=77..80]
+execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[team=alive,distance=77..80]
