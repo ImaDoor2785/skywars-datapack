@@ -4,5 +4,6 @@ gamerule spawn_mobs false
 gamerule max_block_modifications 999999999
 gamerule respawn_radius 0
 gamerule advance_time false
+gamerule immediate_respawn true
 time set day
 function skywars:setup/scoreboard
