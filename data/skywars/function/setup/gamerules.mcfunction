@@ -1,2 +1,3 @@
 gamerule command_block_output false
 gamerule send_command_feedback false
+gamerule spawn_mobs false
