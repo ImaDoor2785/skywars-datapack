@@ -4,4 +4,7 @@ team add dead Dead
 team modify dead color red
 team add team Team
 team modify team color green
-function skywars:options/options_ui
+team add skywars Skywars
+team modify skywars color gold
+team add waiting Waiting
+team modify waiting color gray

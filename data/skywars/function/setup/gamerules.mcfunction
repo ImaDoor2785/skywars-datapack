@@ -8,4 +8,3 @@ gamerule immediate_respawn true
 gamerule advance_weather false
 weather clear
 time set day
-function skywars:setup/scoreboard
