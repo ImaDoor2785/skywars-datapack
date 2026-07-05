@@ -1,3 +1,7 @@
 gamerule command_block_output false
 gamerule send_command_feedback false
 gamerule spawn_mobs false
+gamerule max_block_modifications 999999999
+gamerule respawn_radius 0
+gamerule advance_time false
+time set day
