@@ -9,5 +9,6 @@ effect clear @a[nbt=!{Inventory:[{id:"minecraft:mace"}]}] minecraft:glowing
 execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-35 ~-70 air outline
 execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[team=alive,distance=77..80]
 #Team Selection
-execute as @a[team=waiting] run item replace entity @s hotbar.0 with minecraft:note_block[minecraft:item_name="§e§lSELECT TEAM"]
-execute as @a[nbt={SelectedItem:{id:"minecraft:noteblock"}}] run say hi
+kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
+item replace entity @a[team=waiting] hotbar.0 with minecraft:note_block[minecraft:item_name="§e§lSELECT TEAM"]
+execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}}] at @s positioned ~ ~1 ~ run tp @e[tag=select_team] ~ ~ ~
