@@ -8,4 +8,7 @@ scoreboard objectives add mode dummy Mode
 scoreboard objectives add team dummy Team
 scoreboard objectives add music dummy Music
 scoreboard objectives add kills dummy Kills
-function skywars:setup/teams
+scoreboard objectives setdisplay sidebar alive
+scoreboard objectives setdisplay below_name health
+scoreboard objectives setdisplay list health
+function skywars:setup/score
