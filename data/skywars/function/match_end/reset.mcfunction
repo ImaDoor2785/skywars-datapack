@@ -1,5 +1,5 @@
-title @a[team=Alive] title {"text":"Victory","color":"gold"}
-title @a[team=Dead] title {"text":"Game Over","color":"dark_red"}
+title @a[team=alive] title {"text":"Victory","color":"gold"}
+title @a[team=dead] title {"text":"Game Over","color":"dark_red"}
 execute as @e[tag=base] at @s run tp @a[distance=..100] @s
 execute as @e[tag=base] at @s run fill ~-100 ~-100 ~-100 ~100 ~-20 ~100 minecraft:air
 execute as @e[tag=base] at @s run team leave @a[distance=..100]
