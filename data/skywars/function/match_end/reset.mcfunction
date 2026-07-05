@@ -1,3 +1,4 @@
+scoreboard players set .Alive alive 0
 title @a[team=alive] title {"text":"Victory","color":"gold"}
 title @a[team=dead] title {"text":"Game Over","color":"dark_red"}
 execute as @e[tag=base] at @s run tp @a[distance=..100] @s
