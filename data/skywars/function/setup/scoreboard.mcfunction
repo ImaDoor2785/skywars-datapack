@@ -1,6 +1,6 @@
 scoreboard objectives add alive dummy Alive
-scoreboard objectives add dead dummy Dead
-scoreboard objectives add total-deaths deathCount "Total Deaths"
+scoreboard objectives add dead deathCount Dead
+scoreboard objectives add total-deaths dummy "Total Deaths"
 scoreboard objectives add health health Health
 scoreboard objectives add online dummy Online
 scoreboard objectives add map dummy Map
