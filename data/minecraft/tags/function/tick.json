@@ -1,7 +1,8 @@
 {
    "values":[
      "skywars:tick",
-     "skywars:match_end/enddetection"
+     "skywars:match_end/enddetection",
+     "skywars:dead/deathdetector"
 
    ]
  }
