@@ -1,4 +1,3 @@
-scoreboard players reset -TEAM:SOLO skywars
-scoreboard players set -TEAM:DUOS skywars 9
+scoreboard players reset -TEAM:SOLO options
+scoreboard players set -TEAM:DUOS options 3
 scoreboard players set .Teamlimit team 2
-team join team -TEAM:DUOS

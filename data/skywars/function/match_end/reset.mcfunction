@@ -11,5 +11,6 @@ execute as @e[tag=base] at @s run kill @e[type=end_crystal,distance=..100]
 execute as @e[tag=base] at @s run kill @e[type=tnt,distance=..100]
 execute as @e[tag=base] at @s run stopsound @a[distance=..100]
 execute as @e[tag=base] at @s run effect clear @a[distance=..100]
-
-
+tag @a add spectator
+team join spectator @a
+function skywars:teams/team_scores

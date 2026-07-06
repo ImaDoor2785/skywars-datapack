@@ -19,6 +19,9 @@ scoreboard players set .Dark_Blue team 0
 scoreboard players set .Dark_Red team 0
 
 #Scoreboard Setup
-scoreboard players add - skywars 10
-scoreboard players set -TEAM:SOLO skywars 9
-scoreboard players reset -TEAM:DUOS skywars
+scoreboard players set -TEAM:SOLO options 3
+scoreboard players reset -TEAM:DUOS options
+scoreboard players set -Map:Dwarven options 1
+scoreboard players reset -Map:Hibiscus options
+scoreboard players set -Mode:High_Power options 2
+scoreboard players reset -Mode:Low_Power options

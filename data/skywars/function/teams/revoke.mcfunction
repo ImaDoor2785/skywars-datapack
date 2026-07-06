@@ -1,0 +1,1 @@
+advancement revoke @a only skywars:select_team
