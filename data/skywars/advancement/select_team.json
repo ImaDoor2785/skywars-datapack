@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "using_item": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:note_block",
+            "predicates": {
+              "minecraft:custom_data": "{SELECT_TEAM:true}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "skywars:teams/select_team_ui"
+    }
+  }

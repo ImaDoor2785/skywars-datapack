@@ -1,0 +1,110 @@
+{
+    "type": "multi_action",
+    "title": "Select Team",
+    "actions": [
+        {
+            "type": "action",
+            "label": "§c§lRed Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join red"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§9§lBlue Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join blue"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§a§lGreen Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join green"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§e§lYellow Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join yellow"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§b§lAqua Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join aqua"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§3§lCyan Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join cyan"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§5§lPurple Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join purple"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§d§lPink Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join pink"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§6§lOrange Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join orange"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§f§lWhite Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join white"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§1§lDark Blue Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join dark_blue"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§4§lDark Red Team",
+            "action": {
+                "type": "run_command",
+                "command": "/team join dark_red"
+            }
+        },
+        {
+            "type": "action",
+            "label": "§7§lSpectator",
+            "action": {
+                "type": "run_command",
+                "command": "/team join spectator"
+            }
+        }
+    ]
+}

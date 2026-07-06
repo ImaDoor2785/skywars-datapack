@@ -10,5 +10,4 @@ execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-35 ~-70 
 execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[team=alive,distance=77..80]
 #Team Selection
 kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
-item replace entity @a[team=waiting] hotbar.0 with minecraft:note_block[minecraft:item_name="§e§lSELECT TEAM"]
-execute as @a[nbt={SelectedItem:{id:"minecraft:note_block"}}] at @s positioned ~ ~1 ~ run tp @e[tag=select_team] ~ ~ ~
+item replace entity @a[tag=spectator] hotbar.0 with minecraft:note_block[minecraft:item_name="§e§lSELECT TEAM",minecraft:consumable={consume_seconds:1000000},custom_data={SELECT_TEAM:true}]
