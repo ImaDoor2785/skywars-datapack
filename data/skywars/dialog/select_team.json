@@ -1,6 +1,6 @@
 {
     "type": "multi_action",
-    "title": "Select Team",
+    "title": "§lSelect Team",
     "actions": [
         {
             "type": "action",
