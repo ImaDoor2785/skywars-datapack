@@ -6,5 +6,5 @@ function skywars:setup/scoreboard
 schedule function skywars:setup/score 1t
 function skywars:setup/teams
 function skywars:options/options_ui
-tellraw @a {"text":"If you are building for the first time","color":"red","bold":false,"italic":true}
-tellraw @a {"text":"than reload your world once","color":"red","bold":false,"italic":true}
+tellraw @a {"text":"If you are building the map for the","color":"red","bold":false,"italic":true}
+tellraw @a {"text":"first time than reload your world once","color":"red","bold":false,"italic":true}
