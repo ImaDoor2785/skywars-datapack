@@ -39,3 +39,7 @@ team modify dark_red color dark_red
 #Starting Team&Tag
 team join spectator @a
 tag @a add spectator
+
+#Scoreboard Setup
+team join team -TEAM:SOLO
+team join team -TEAM:DUOS
