@@ -7,7 +7,7 @@
             "label": "§c§lRed Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join red"
+                "command": "/execute as @s[team=!red] if score .Red team < .Teamlimit team run function skywars:options/team/team_colors/red"
             }
         },
         {
@@ -15,7 +15,7 @@
             "label": "§9§lBlue Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join blue"
+                "command": "/execute as @s[team=!blue] if score .Blue team < .Teamlimit team run function skywars:options/team/team_colors/blue"
             }
         },
         {
@@ -23,7 +23,7 @@
             "label": "§a§lGreen Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join green"
+                "command": "/execute as @s[team=!green] if score .Green team < .Teamlimit team run function skywars:options/team/team_colors/green"
             }
         },
         {
@@ -31,7 +31,7 @@
             "label": "§e§lYellow Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join yellow"
+                "command": "/execute as @s[team=!yellow] if score .Yellow team < .Teamlimit team run function skywars:options/team/team_colors/yellow"
             }
         },
         {
@@ -39,7 +39,7 @@
             "label": "§b§lAqua Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join aqua"
+                "command": "/execute as @s[team=!aqua] if score .Aqua team < .Teamlimit team run function skywars:options/team/team_colors/aqua"
             }
         },
         {
@@ -47,7 +47,7 @@
             "label": "§3§lCyan Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join cyan"
+                "command": "/execute as @s[team=!cyan] if score .Cyan team < .Teamlimit team run function skywars:options/team/team_colors/cyan"
             }
         },
         {
@@ -55,7 +55,7 @@
             "label": "§5§lPurple Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join purple"
+                "command": "/execute as @s[team=!purple] if score .Purple team < .Teamlimit team run function skywars:options/team/team_colors/purple"
             }
         },
         {
@@ -63,7 +63,7 @@
             "label": "§d§lPink Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join pink"
+                "command": "/execute as @s[team=!pink] if score .Pink team < .Teamlimit team run function skywars:options/team/team_colors/pink"
             }
         },
         {
@@ -71,7 +71,7 @@
             "label": "§6§lOrange Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join orange"
+                "command": "/execute as @s[team=!orange] if score .Orange team < .Teamlimit team run function skywars:options/team/team_colors/orange"
             }
         },
         {
@@ -79,7 +79,7 @@
             "label": "§f§lWhite Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join white"
+                "command": "/execute as @s[team=!white] if score .White team < .Teamlimit team run function skywars:options/team/team_colors/white"
             }
         },
         {
@@ -87,7 +87,7 @@
             "label": "§1§lDark Blue Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join dark_blue"
+                "command": "/execute as @s[team=!dark_blue] if score .Dark_Blue team < .Teamlimit team run function skywars:options/team/team_colors/dark_blue"
             }
         },
         {
@@ -95,7 +95,7 @@
             "label": "§4§lDark Red Team",
             "action": {
                 "type": "run_command",
-                "command": "/team join dark_red"
+                "command": "/execute as @s[team=!dark_red] if score .Dark_Red team < .Teamlimit team run function skywars:options/team/team_colors/dark_red"
             }
         },
         {
@@ -103,7 +103,7 @@
             "label": "§7§lSpectator",
             "action": {
                 "type": "run_command",
-                "command": "/team join spectator"
+                "command": "/execute as @s[team=!spectator] run function skywars:teams/spectator"
             }
         }
     ]
