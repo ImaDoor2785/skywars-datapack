@@ -65,3 +65,5 @@ team join map -Map:Dwarven
 team join map -Map:Hibiscus
 team join mode -Mode:High_Power
 team join mode -Mode:Low_Power
+team join music -Mode:Music_On
+team join music -Mode:Music_Off

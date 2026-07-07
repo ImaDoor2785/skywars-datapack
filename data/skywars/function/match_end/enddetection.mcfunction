@@ -1,12 +1,25 @@
-execute as @e[tag=base] if score .End end = .Onlinelimit end run function skywars:match_end/reset
-
+execute as @e[tag=base] if score .End end matches 1 if score .Endflag end matches 0 run function skywars:match_end/reset
+execute as @e[tag=base] if score .End end matches 1 if score .Endflag end matches 0 run scoreboard players set .Endflag end 1
 
 
 
 #Team end Check
+scoreboard players set .End end 0
+scoreboard players set .Red end 0
+scoreboard players set .Blue end 0
+scoreboard players set .Green end 0
+scoreboard players set .Yellow end 0
+scoreboard players set .Aqua end 0
+scoreboard players set .Cyan end 0
+scoreboard players set .Purple end 0
+scoreboard players set .Pink end 0
+scoreboard players set .Orange end 0
+scoreboard players set .White end 0
+scoreboard players set .Dark_Blue end 0
+scoreboard players set .Dark_Red end 0
 execute as @a[team=red] run scoreboard players set .Red end 1
 execute as @a[team=blue] run scoreboard players set .Blue end 1
-execute as @a[team=green] run scoreboard players set .GreenO end 1
+execute as @a[team=green] run scoreboard players set .Green end 1
 execute as @a[team=yellow] run scoreboard players set .Yellow end 1
 execute as @a[team=aqua] run scoreboard players set .Aqua end 1
 execute as @a[team=cyan] run scoreboard players set .Cyan end 1
@@ -30,4 +43,4 @@ execute if score .White end matches 1 run scoreboard players add .End end 1
 execute if score .Dark_Blue end matches 1 run scoreboard players add .End end 1
 execute if score .Dark_Red end matches 1 run scoreboard players add .End end 1
 
-execute as @e[tag=base] if score .End end > .Endlimit end run scoreboard players set .End end 2
+

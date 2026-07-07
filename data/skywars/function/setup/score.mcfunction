@@ -1,7 +1,6 @@
 #Score Checks
 scoreboard players set .Onlinelimit online 1
-scoreboard players set .Endlimit end 3
-
+scoreboard players set .Endflag end 2
 scoreboard players set .Teamlimit team 1
 scoreboard players set .Mode mode 1
 scoreboard players set .Map map 1
