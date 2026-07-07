@@ -1,6 +1,6 @@
-scoreboard players set -Music:Off options 0
-scoreboard players reset -Music:5 options
+scoreboard players set -Music:5 options 0
 scoreboard players reset -Music:Cat options
+scoreboard players reset -Music:Off options
 scoreboard players reset -Music:Blocks options
 scoreboard players reset -Music:Chirp options
 scoreboard players reset -Music:Far options
@@ -23,3 +23,4 @@ scoreboard players reset -Music:Pigstep options
 
 
 stopsound @a
+playsound music_disc.5 ambient @a ~ ~ ~ 100

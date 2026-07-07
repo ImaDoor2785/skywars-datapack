@@ -1,6 +1,8 @@
-scoreboard players set -Music:Off options 0
-scoreboard players reset -Music:5 options
-scoreboard players reset -Music:Cat options
+scoreboard players set -Music:Wait options 0
+scoreboard players reset -Music:Tears options
+scoreboard players reset -Music:Cat options 
+scoreboard players reset -Music:Off options
+scoreboard players reset -Music:13 options
 scoreboard players reset -Music:Blocks options
 scoreboard players reset -Music:Chirp options
 scoreboard players reset -Music:Far options
@@ -11,15 +13,14 @@ scoreboard players reset -Music:Strad options
 scoreboard players reset -Music:Ward options
 scoreboard players reset -Music:11 options
 scoreboard players reset -Music:Creator_Music_Box options
-scoreboard players reset -Music:Wait options
 scoreboard players reset -Music:Creator options
 scoreboard players reset -Music:Precipice options
 scoreboard players reset -Music:Otherside options
 scoreboard players reset -Music:Relic options
-scoreboard players reset -Music:13 options
-scoreboard players reset -Music:Tears options
+scoreboard players reset -Music:5 options
 scoreboard players reset -Music:Lava_Chicken options
 scoreboard players reset -Music:Pigstep options
 
 
 stopsound @a
+playsound music_disc.wait ambient @a ~ ~ ~ 100

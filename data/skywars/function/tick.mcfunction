@@ -13,3 +13,6 @@ kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
 item replace entity @a[tag=spectator] hotbar.0 with minecraft:note_block[minecraft:item_name="§e§lSELECT TEAM",minecraft:consumable={consume_seconds:1000000},custom_data={SELECT_TEAM:true}]
 #Spectator
 execute as @a[tag=spectator] run gamemode adventure
+execute at @a[scores={dead=1..}] run particle minecraft:explosion_emitter ~ ~ ~
+execute at @a[scores={dead=1..}] run playsound minecraft:entity.lightning_bolt.thunder weather @a ~ ~ ~ 4.0 1.0
+

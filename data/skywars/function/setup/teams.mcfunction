@@ -59,11 +59,35 @@ team join spectator @a
 tag @a add spectator
 
 #Scoreboard Setup
+ #Teams
 team join team -TEAM:SOLO
 team join team -TEAM:DUOS
+ #Maps
 team join map -Map:Dwarven
 team join map -Map:Hibiscus
+ #Gamemodes
 team join mode -Mode:High_Power
 team join mode -Mode:Low_Power
-team join music -Mode:Music_On
-team join music -Mode:Music_Off
+ #Music
+team join music -Music:Off
+team join music -Music:Cat
+team join music -Music:Lava_Chicken
+team join music -Music:Pigstep
+team join music -Music:Otherside
+team join music -Music:Tears
+team join music -Music:Creator
+team join music -Music:Relic
+team join music -Music:Creator_Music_Box'
+team join music -Music:Wait
+team join music -Music:Stal
+team join music -Music:Ward
+team join music -Music:Strad
+team join music -Music:Precipice
+team join music -Music:Chirp
+team join music -Music:Far
+team join music -Music:Blocks
+team join music -Music:Mellohi
+team join music -Music:Mall
+team join music -Music:13
+team join music -Music:11
+team join music -Music:5
