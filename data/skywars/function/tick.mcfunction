@@ -7,7 +7,7 @@ effect give @a[nbt={Inventory:[{id:"minecraft:mace"}]}] minecraft:glowing infini
 effect clear @a[nbt=!{Inventory:[{id:"minecraft:mace"}]}] minecraft:glowing
 #Border
 execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-35 ~-70 air outline
-execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[team=alive,distance=77..80]
+execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[tag=!spectator,distance=76..80]
 #Team Selection
 kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
 item replace entity @a[tag=spectator] hotbar.0 with minecraft:note_block[minecraft:item_name="§e§lSELECT TEAM",minecraft:consumable={consume_seconds:1000000},custom_data={SELECT_TEAM:true}]
