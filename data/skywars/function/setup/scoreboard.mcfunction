@@ -8,7 +8,8 @@ scoreboard objectives add health health Health
 scoreboard objectives add online dummy Online
 scoreboard objectives add team dummy Team
 scoreboard objectives add music dummy Music
-scoreboard objectives add kills dummy Kills
+scoreboard objectives add kills minecraft.custom:minecraft.player_kills Kills
+scoreboard objectives add wins dummy Wins
 scoreboard objectives add skywars dummy [{"text":"MODERN SKYWARS","color":"gold","bold":true}]
 scoreboard objectives add options dummy [{"text":"OPTIONS","color":"gray","bold":true}]
 
