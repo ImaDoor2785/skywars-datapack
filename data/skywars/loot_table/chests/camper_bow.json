@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "CAMPER BOW",
+              "color": "#ebee0c",
+              "bold": true,
+              "italic": false
+             }
+            },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+              {
+                "text": "He who holds the bow fears the shower",
+                "color": "#f1b739"
+              }
+            ],
+            "mode": "insert"
+            },
+            {
+            "function": "minecraft:set_enchantments",
+            "levels": 0,
+            "enchantments": {
+              "minecraft:infinity": 1
+            }
+            },
+            {
+            "function": "minecraft:set_enchantments",
+            "levels": 0,
+            "enchantments": {
+              "minecraft:power": 5
+            }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

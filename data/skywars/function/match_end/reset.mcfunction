@@ -44,11 +44,12 @@ execute as @e[tag=base] at @s run tp @a @s
 team leave @a
 gamemode adventure @a
 clear @a
-kill @e[type=item]
-kill @e[type=end_crystal]
-kill @e[type=tnt]
+kill @e[type=!player,tag=!base]
 effect clear @a
+xp set @a 0 levels
+xp set @a 0
 tag @a add spectator
 team join spectator @a
 function skywars:teams/team_scores
 scoreboard players set .Endflag end 2
+reload

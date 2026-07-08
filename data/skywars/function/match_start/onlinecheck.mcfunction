@@ -1,7 +1,7 @@
 #Team Online Check
 execute as @a[team=red] run scoreboard players set .Red online 1
 execute as @a[team=blue] run scoreboard players set .Blue online 1
-execute as @a[team=green] run scoreboard players set .GreenO online 1
+execute as @a[team=green] run scoreboard players set .Green online 1
 execute as @a[team=yellow] run scoreboard players set .Yellow online 1
 execute as @a[team=aqua] run scoreboard players set .Aqua online 1
 execute as @a[team=cyan] run scoreboard players set .Cyan online 1

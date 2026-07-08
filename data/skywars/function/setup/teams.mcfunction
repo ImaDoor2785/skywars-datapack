@@ -15,6 +15,8 @@ team add mode Mode
 team modify mode color aqua
 team add music Music
 team modify music color light_purple
+team add special Special
+team modify special color dark_purple
 
 #Teams
 team add red Red
@@ -77,7 +79,7 @@ team join music -Music:Otherside
 team join music -Music:Tears
 team join music -Music:Creator
 team join music -Music:Relic
-team join music -Music:Creator_Music_Box'
+team join music -Music:Creator_Music_Box
 team join music -Music:Wait
 team join music -Music:Stal
 team join music -Music:Ward
@@ -91,3 +93,6 @@ team join music -Music:Mall
 team join music -Music:13
 team join music -Music:11
 team join music -Music:5
+#Special Weapons
+team join special -Special:On
+team join special -Special:Off

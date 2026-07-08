@@ -1,0 +1,2 @@
+execute if score -Special:Off options matches -1 run schedule function skywars:options/mode/special/on 1t
+execute if score -Special:On options matches -1 run schedule function skywars:options/mode/special/off 1t

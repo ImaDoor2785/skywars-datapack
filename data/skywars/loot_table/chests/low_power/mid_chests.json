@@ -6,23 +6,39 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
+          "name": "minecraft:stone_axe",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_spear",
+          "name": "minecraft:iron_sword",
           "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 3
+          "name": "minecraft:stone_sword",
+          "weight": 3,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "levels": 0,
+            "enchantments": {
+              "minecraft:sharpness": 1
+            }
+            },
+            {
+            "function": "minecraft:set_enchantments",
+            "levels": 0,
+            "enchantments": {
+              "minecraft:fire_aspect": 1
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 9
+          "name": "minecraft:bow",
+          "weight": 3
         }
       ],
       "rolls": 1.0
@@ -32,17 +48,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_helmet",
+          "name": "minecraft:diamond_helmet",
           "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
+          "name": "minecraft:chainmail_chestplate",
           "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_leggings",
+          "name": "minecraft:golden_leggings",
           "weight": 4
         },
         {
@@ -62,21 +78,48 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "weight": 4
+          "name": "minecraft:lingering_potion",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 0,
+                      "duration": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:shield",
-          "weight": 2
+          "name": "minecraft:splash_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:instant_damage",
+                      "amplifier": 0,
+                      "duration": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:empty",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stick",
           "weight": 8
         }
       ],
@@ -87,12 +130,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
+          "name": "minecraft:golden_apple",
           "weight": 2
         },
         {
@@ -123,7 +161,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:dark_prismarine",
+          "name": "minecraft:stone",
           "weight": 16
         },
         {
@@ -133,14 +171,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
+                "max": 1.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:ender_pearl",
-          "weight": 3
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -155,7 +193,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:spectral_arrow",
+          "name": "minecraft:arrow",
           "weight": 4
         },
         {
@@ -175,7 +213,7 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
+                "max": 2.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
@@ -191,13 +229,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
+                "max": 4.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:end_crystal",
+          "name": "minecraft:cooked_beef",
           "weight": 1
         },
         {
@@ -229,7 +267,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond_block",
+          "name": "minecraft:diamond",
           "weight": 2
         },
         {
@@ -239,13 +277,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 1.0,
+                "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:wind_charge",
+          "name": "minecraft:cobweb",
           "weight": 2
         },
         {

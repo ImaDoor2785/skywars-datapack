@@ -10,5 +10,5 @@ execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus3 ~36
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus2 ~-12 ~-78 ~-58
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus1 ~-60 ~-78 ~-58
 kill @e[type=item]
-execute at @e[tag=base] run setblock ~ ~-48 ~ air
-execute at @e[tag=base] run setblock ~ ~-48 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/mace"}}
+execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-48 ~ air
+execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-48 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/throngler"}}

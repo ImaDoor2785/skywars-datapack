@@ -6,6 +6,7 @@ gamerule respawn_radius 0
 gamerule advance_time false
 gamerule immediate_respawn true
 gamerule advance_weather false
+gamerule allow_entering_nether_using_portals false
 difficulty easy
 weather clear
 time set day

@@ -26,3 +26,5 @@ scoreboard players set -Map:Dwarven options 1
 scoreboard players reset -Map:Hibiscus options
 scoreboard players set -Mode:High_Power options 2
 scoreboard players reset -Mode:Low_Power options
+scoreboard players set -Special:On options -1
+scoreboard players reset -Special:Off options
