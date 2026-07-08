@@ -1,6 +1,7 @@
 #Scoreboards
 scoreboard objectives add alive dummy Alive
 scoreboard objectives add end dummy End
+scoreboard objectives add dj_state dummy
 
 scoreboard objectives add dead deathCount Dead
 scoreboard objectives add total-deaths dummy "Total Deaths"

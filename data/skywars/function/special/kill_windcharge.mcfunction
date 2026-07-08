@@ -1,0 +1,1 @@
+kill @e[type=wind_charge]

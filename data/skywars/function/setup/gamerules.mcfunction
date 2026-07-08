@@ -7,6 +7,7 @@ gamerule advance_time false
 gamerule immediate_respawn true
 gamerule advance_weather false
 gamerule allow_entering_nether_using_portals false
+gamerule random_tick_speed 0
 difficulty easy
 weather clear
 time set day

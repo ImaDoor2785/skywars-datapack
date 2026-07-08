@@ -24,3 +24,11 @@ item replace entity @a[tag=spectator] hotbar.0 with minecraft:note_block[minecra
 execute at @a[scores={dead=1..}] run particle minecraft:explosion_emitter ~ ~ ~
 execute at @a[scores={dead=1..}] run playsound minecraft:entity.lightning_bolt.thunder weather @a ~ ~ ~ 4.0 1.0
 
+
+# Reset states when touching solid ground
+execute if score -Mode:Slime options matches 2 as @a[nbt={OnGround:1b}] run scoreboard players set @s dj_state 0
+
+# Double Jump
+tag @a[nbt={OnGround:1b},tag=DJ] add jump
+execute as @a[scores={sneak=1..20},tag=DJ,] unless block ~ ~-1 ~ barrier unless block ~ ~-2 ~ barrier run scoreboard players reset @s[nbt={OnGround:1b}] sneak
+execute as @a[scores={sneak=1..},tag=DJ] run execute at @s[tag=DJ] if block ~ ~-1 ~ air run execute at @s[tag=jump,nbt={OnGround:0b}] run function skywars:special/dj

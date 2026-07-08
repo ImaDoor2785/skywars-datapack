@@ -67,9 +67,11 @@ team join team -TEAM:DUOS
  #Maps
 team join map -Map:Dwarven
 team join map -Map:Hibiscus
+team join map -Map:Aegis
  #Gamemodes
 team join mode -Mode:High_Power
 team join mode -Mode:Low_Power
+team join mode -Mode:Slime
  #Music
 team join music -Music:Off
 team join music -Music:Cat
