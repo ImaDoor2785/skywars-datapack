@@ -7,22 +7,37 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
-          "weight": 3
+          "weight": 3,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:efficiency": 3
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_spear",
-          "weight": 3
+          "name": "minecraft:stick",
+          "weight": 2,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:knockback": 5
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 3
+          "name": "minecraft:flint_and_steel",
+          "weight": 8
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 9
+          "type": "minecraft:empty",
+          "weight": 10
         }
       ],
       "rolls": 1.0
@@ -33,26 +48,51 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 4
+          "weight": 2,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:protection": 4
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_chestplate",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_leggings",
-          "weight": 4
+          "name": "minecraft:iron_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:protection": 4
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "weight": 4
+          "weight": 2,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:protection": 2
+            }
+            },
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:fire_protection": 5
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:empty",
-          "weight": 8
+          "weight": 12
         }
       ],
       "rolls": 2.0
@@ -62,21 +102,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:crossbow",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shield",
-          "weight": 2
+          "name": "minecraft:bow",
+          "weight": 4,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:punch": 3
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:empty",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
           "weight": 8
         }
       ],
@@ -87,13 +125,35 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying",
-          "weight": 2
+          "name": "minecraft:stone_sword",
+          "weight": 4,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:sharpness": 1
+            }
+            },
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:fire_aspect": 2
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 2
+          "name": "minecraft:slime_ball",
+          "weight": 1,
+          "functions": [
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:knockback": 10
+            }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -117,13 +177,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
+                "max": 16.0,
+                "min": 16.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:dark_prismarine",
+          "name": "minecraft:slime_block",
           "weight": 16
         },
         {
@@ -133,8 +193,8 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
+                "max": 4.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -149,39 +209,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
+                "max": 4.0,
                 "min": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:spectral_arrow",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 1
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:obsidian",
+          "name": "minecraft:wind_charge",
           "weight": 3
         },
         {
@@ -191,29 +225,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
+                "max": 8.0,
+                "min": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:end_crystal",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:tnt",
+          "name": "minecraft:arrow",
           "weight": 4
         },
         {
@@ -223,34 +241,18 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_block",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 2.0,
                 "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:wind_charge",
-          "weight": 2
+          "name": "minecraft:golden_apple",
+          "weight": 4
         },
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 4
         }
       ],
       "rolls": 4.0

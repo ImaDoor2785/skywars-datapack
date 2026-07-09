@@ -6,13 +6,54 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_pickaxe",
-          "weight": 3
+          "name": "minecraft:fishing_rod",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "knockback": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Hot Rod", "color": "dark_red", "italic": false, "bold": true}
+            }
+          ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_pickaxe",
-          "weight": 1
+          "name": "minecraft:stick",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "knockback": 2
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Funky Stick", "color": "dark_purple", "italic": false }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wooden_axe",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "knockback": 3
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {"text": "Stick with a Hat", "color": "light_purple"}
+            }
+          ]
         },
         {
           "type": "minecraft:empty",
@@ -26,12 +67,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
-          "weight": 1
+          "name": "minecraft:iron_axe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:jump_boost",
+                      "amplifier": 0,
+                      "duration": 180
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:empty",
-          "weight": 100
+          "weight": 8
         }
       ],
       "rolls": 1.0
@@ -42,29 +109,29 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_chestplate",
-          "weight": 4
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_leggings",
-          "weight": 4
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet",
-          "weight": 4
+          "name": "minecraft:iron_helmet",
+          "weight": 3
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_boots",
-          "weight": 4
+          "name": "minecraft:iron_boots",
+          "weight": 3
         },
         {
           "type": "minecraft:empty",
           "weight": 8
         }
       ],
-      "rolls": 2.0
+      "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
@@ -72,7 +139,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bow",
-          "weight": 2
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:punch": 1
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -91,26 +166,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_sword",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:empty",
-          "weight": 6
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
@@ -122,39 +177,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:apple",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bread",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:cooked_porkchop",
+          "name": "minecraft:cooked_beef",
           "weight": 1
         },
         {
@@ -174,125 +197,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 8.0
+                "max": 16.0,
+                "min": 16.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:stone",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:oak_planks",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:oak_log",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glass",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:tnt",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_block",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:water_bucket",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:lava_bucket",
+          "name": "minecraft:slime_block",
           "weight": 3
         },
         {
@@ -325,10 +236,30 @@
             }
           ],
           "name": "minecraft:arrow",
-          "weight": 3
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 8.0,
+                "min": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:snowball",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 1
         }
       ],
-      "rolls": 4.0
+      "rolls": 3.0
     }
   ],
   "random_sequence": "spawn_chests"

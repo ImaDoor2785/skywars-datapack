@@ -15,6 +15,7 @@ effect give @a[nbt={Inventory:[{id:"minecraft:mace",components:{"minecraft:custo
 #Border
 execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-35 ~-70 air outline
 execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[tag=!spectator,distance=76..80]
+execute as @e at @s if entity @e[y=192,dy=0] run kill @s[tag=!spectator]
 
 #Team Selection
 kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
@@ -24,11 +25,13 @@ item replace entity @a[tag=spectator] hotbar.0 with minecraft:note_block[minecra
 execute at @a[scores={dead=1..}] run particle minecraft:explosion_emitter ~ ~ ~
 execute at @a[scores={dead=1..}] run playsound minecraft:entity.lightning_bolt.thunder weather @a ~ ~ ~ 4.0 1.0
 
-
-# Reset states when touching solid ground
-execute if score -Mode:Slime options matches 2 as @a[nbt={OnGround:1b}] run scoreboard players set @s dj_state 0
-
 # Double Jump
-tag @a[nbt={OnGround:1b},tag=DJ] add jump
-execute as @a[scores={sneak=1..20},tag=DJ,] unless block ~ ~-1 ~ barrier unless block ~ ~-2 ~ barrier run scoreboard players reset @s[nbt={OnGround:1b}] sneak
-execute as @a[scores={sneak=1..},tag=DJ] run execute at @s[tag=DJ] if block ~ ~-1 ~ air run execute at @s[tag=jump,nbt={OnGround:0b}] run function skywars:special/dj
+execute if score -Mode:Slime options matches 2 run function skywars:special/double_jump
+
+#Dash
+execute as @a[scores={click=1..}] at @s run function skywars:special/click
+
+
+
+
+

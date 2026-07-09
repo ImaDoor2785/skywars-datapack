@@ -43,11 +43,13 @@ title @a[team=dead] title {"text":"Game Over","color":"dark_red"}
 execute as @e[tag=base] at @s run tp @a @s
 team leave @a
 gamemode adventure @a
+gamerule fall_damage true
 clear @a
 kill @e[type=!player,tag=!base]
 effect clear @a
 xp set @a 0 levels
 xp set @a 0
+tag @a remove DJ
 tag @a add spectator
 team join spectator @a
 function skywars:teams/team_scores

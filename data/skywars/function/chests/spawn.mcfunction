@@ -7,3 +7,8 @@ execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Low_Power optio
 execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Low_Power options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=east]{LootTable:"skywars:chests/low_power/spawn_chests"} replace chest[facing=east]
 execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Low_Power options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=west]{LootTable:"skywars:chests/low_power/spawn_chests"} replace chest[facing=west]
 execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Low_Power options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=north]{LootTable:"skywars:chests/low_power/spawn_chests"} replace chest[facing=north]
+
+execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Slime options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=south]{LootTable:"skywars:chests/slime/spawn_chests"} replace chest[facing=south]
+execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Slime options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=east]{LootTable:"skywars:chests/slime/spawn_chests"} replace chest[facing=east]
+execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Slime options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=west]{LootTable:"skywars:chests/slime/spawn_chests"} replace chest[facing=west]
+execute as @e[tag=spawnloot] at @e[tag=spawnloot] if score -Mode:Slime options matches 2 run fill ~8 ~-17 ~8 ~-8 ~ ~-8 chest[facing=north]{LootTable:"skywars:chests/slime/spawn_chests"} replace chest[facing=north]

@@ -1,8 +1,9 @@
 #Scoreboards
 scoreboard objectives add alive dummy Alive
 scoreboard objectives add end dummy End
-scoreboard objectives add dj_state dummy
-
+scoreboard objectives add duration dummy
+scoreboard objectives add jump custom:jump
+scoreboard objectives add click used:carrot_on_a_stick
 scoreboard objectives add dead deathCount Dead
 scoreboard objectives add total-deaths dummy "Total Deaths"
 scoreboard objectives add health health Health

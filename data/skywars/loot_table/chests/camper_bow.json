@@ -30,14 +30,12 @@
             },
             {
             "function": "minecraft:set_enchantments",
-            "levels": 0,
             "enchantments": {
               "minecraft:infinity": 1
             }
             },
             {
             "function": "minecraft:set_enchantments",
-            "levels": 0,
             "enchantments": {
               "minecraft:power": 5
             }
