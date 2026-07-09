@@ -1,0 +1,2 @@
+execute as @a[advancements={skywars:shear_i_nator=true}] run title @s actionbar {"text":"Item on cooldown","color":"red","bold":false,"italic":true}
+advancement revoke @a only skywars:shear-i-nator_cooldown
