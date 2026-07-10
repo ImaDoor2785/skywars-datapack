@@ -4,13 +4,13 @@
         "trigger": "minecraft:using_item",
         "conditions": {
           "item": {
-            "items": "minecraft:shears",
-            "predicates": {"minecraft:custom_data": {"Shear-I-Nator3000": true}}
+            "items": "minecraft:note_block",
+            "predicates": {"minecraft:custom_data": {"SELECT_TEAM": true}}
          }
         }
       }
     },
     "rewards": {
-      "function": "skywars:special/shear-i-nator_cooldown"
+      "function": "skywars:teams/select_team_ui"
   }
 }

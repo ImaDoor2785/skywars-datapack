@@ -12,6 +12,7 @@ scoreboard objectives add team dummy Team
 scoreboard objectives add music dummy Music
 scoreboard objectives add kills minecraft.custom:minecraft.player_kills Kills
 scoreboard objectives add wins dummy Wins
+scoreboard objectives add left minecraft.custom:minecraft.leave_game Offline
 scoreboard objectives add skywars dummy [{"text":"MODERN SKYWARS","color":"gold","bold":true}]
 scoreboard objectives add options dummy [{"text":"OPTIONS","color":"gray","bold":true}]
 

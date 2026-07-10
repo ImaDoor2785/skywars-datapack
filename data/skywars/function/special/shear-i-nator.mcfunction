@@ -19,6 +19,6 @@ execute as @a[tag=sheared,sort=nearest,limit=1] at @s run item replace entity @e
 execute as @a[tag=sheared,sort=nearest,limit=1] at @s run item replace entity @s armor.feet with air
 
 execute at @s run kill @e[type=item,name="Stone",sort=nearest,limit=4]
-execute at @s run tag @a[distance=3] remove sheared 
+tag @a remove sheared
 tag @s remove shearer
-schedule function skywars:special/revoke-shear-i-nator 20s
+schedule function skywars:special/revoke-shear-i-nator 10s

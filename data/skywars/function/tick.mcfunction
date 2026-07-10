@@ -1,6 +1,7 @@
 #Base Effects
-execute as @e[tag=base] at @s run effect give @a[distance=..12] saturation 1 1 true
-execute as @e[tag=base] at @s run effect give @a[distance=..12] resistance 1 2 true
+execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run effect give @a[dx=24,dz=12] saturation 1 1 true
+execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run effect give @a[dx=24,dz=12] resistance 1 2 true
+execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run tag @a[dx=24,dz=12] add spectator
 
 #Special Items
 execute as @e[type=item,nbt={Item:{id:"minecraft:bow",components:{"minecraft:custom_name":{text:"CAMPER BOW",bold:1b,color:"#EBEE0C",italic:0b},"minecraft:lore":[{text:"He who holds the bow fears the shower",color:"#F1B739"}],"minecraft:enchantments":{"minecraft:power":5,"minecraft:infinity":1}}}}] at @s run playsound minecraft:entity.player.levelup ambient @a ~ ~ ~ 0.5 0.5
@@ -12,10 +13,14 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:mace",components:{"minecraft:cu
 execute as @e[type=item,nbt={Item:{id:"minecraft:mace",components:{"minecraft:custom_name":{text:"THE THRONGLER"}}}}] at @s run particle minecraft:enchant ~ ~0.5 ~ 0.3 0.3 0.3 1 2 force
 effect give @a[nbt={Inventory:[{id:"minecraft:mace",components:{"minecraft:custom_name":{text:"THE THRONGLER"}}}]}] minecraft:glowing 1
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}}] at @s run playsound minecraft:block.cobweb.place ambient @a ~ ~ ~ 5 0.2
+execute as @e[type=item,nbt={Item:{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}}] at @s run particle block{block_state:{Name:white_wool}} ~ ~0.5 ~ 0 0 0 1 1
+effect give @a[nbt={Inventory:[{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}]}] minecraft:glowing 1
+
 #Border
-execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-35 ~-70 air outline
+execute at @e[tag=base] positioned ~ ~-50 ~ run fill ~70 ~30 ~70 ~-70 ~-50 ~-70 air outline
 execute at @e[tag=base] positioned ~ ~-50 ~ run kill @e[tag=!spectator,distance=76..80]
-execute as @e at @s if entity @e[y=192,dy=0] run kill @s[tag=!spectator]
+execute as @a at @s run kill @a[y=192,dx=0,dy=0,dz=0,tag=!spectator]
 
 #Team Selection
 kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
@@ -30,6 +35,9 @@ execute if score -Mode:Slime options matches 2 run function skywars:special/doub
 
 #Dash
 execute as @a[scores={click=1..}] at @s run function skywars:special/click
+
+#Player reset on join
+execute as @a[scores={left=1}] run function skywars:dead/reset_player
 
 
 
