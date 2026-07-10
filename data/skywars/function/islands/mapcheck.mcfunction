@@ -1,3 +1,4 @@
 execute as @e[tag=base] if score -Map:Hibiscus options matches 1 run function skywars:islands/spawnhibiscus
 execute as @e[tag=base] if score -Map:Dwarven options matches 1 run function skywars:islands/spawndwarf
 execute as @e[tag=base] if score -Map:Aegis options matches 1 run function skywars:islands/spawnaegis
+execute as @e[tag=base] if score -Map:Canopy options matches 1 run function skywars:islands/spawncanopy

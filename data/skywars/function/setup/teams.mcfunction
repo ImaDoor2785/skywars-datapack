@@ -68,6 +68,7 @@ team join team -TEAM:DUOS
 team join map -Map:Dwarven
 team join map -Map:Hibiscus
 team join map -Map:Aegis
+team join map -Map:Canopy
  #Gamemodes
 team join mode -Mode:High_Power
 team join mode -Mode:Low_Power

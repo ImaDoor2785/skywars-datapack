@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:vault",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 1,
+          "functions": [
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "MagiKarp",
+              "color": "#0ceec4",
+              "bold": true,
+              "italic": false
+             }
+         },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+              {
+                "text": "*Splash*",
+                "color": "#2f28f8"
+              }
+            ],
+            "mode": "insert"
+         },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+              {
+                "text": "*Drowns Player*",
+                "color": "#2f28f8"
+              }
+            ],
+            "mode": "insert"
+          },
+            {
+            "function": "minecraft:set_lore",
+            "lore": [
+              {
+                "text": "*Splash*",
+                "color": "#2f28f8"
+              }
+            ],
+            "mode": "insert"
+         },
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:power": 20
+            }
+            },
+            {
+            "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "MagiKarp": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

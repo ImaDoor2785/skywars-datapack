@@ -15,6 +15,8 @@ scoreboard objectives add wins dummy Wins
 scoreboard objectives add left minecraft.custom:minecraft.leave_game Offline
 scoreboard objectives add skywars dummy [{"text":"MODERN SKYWARS","color":"gold","bold":true}]
 scoreboard objectives add options dummy [{"text":"OPTIONS","color":"gray","bold":true}]
+scoreboard objectives add random dummy Random
+
 
 #Scoreboard Displays
 scoreboard objectives setdisplay sidebar options

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "hit_player_with_magikarp": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": ["minecraft:tropical_fish"],
+              "predicates": {"minecraft:custom_data": {"MagiKarp": true}}
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skywars:special/magikarp_hit"
+  }
+}

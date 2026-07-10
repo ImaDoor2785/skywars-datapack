@@ -2,8 +2,6 @@
 scoreboard players set .Onlinelimit online 1
 scoreboard players set .Endflag end 2
 scoreboard players set .Teamlimit team 1
-scoreboard players set .Mode mode 1
-scoreboard players set .Map map 1
 
 #Team Scores
 scoreboard players set .Red team 0
