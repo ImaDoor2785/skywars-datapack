@@ -1,5 +1,5 @@
 execute as @e[tag=base] at @e[tag=base] run fill ~68 ~-10 ~68 ~-68 ~-150 ~-68 air
-execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis10 ~-8 ~-31 ~-8
+execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis10 ~-8 ~-71 ~-8
 execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis9 ~40 ~-119 ~40
 execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis8 ~-8 ~-119 ~40
 execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis7 ~-56 ~-119 ~40

@@ -24,7 +24,7 @@ effect give @a[nbt={Inventory:[{id:"minecraft:tropical_fish",components:{"minecr
 #Border
 execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~70 ~30 ~70 ~-70 ~-50 ~-70 air outline
 execute at @e[tag=base] positioned ~ ~-90 ~ run kill @e[tag=!spectator,distance=76..80]
-execute as @a at @s run kill @a[y=192,dx=0,dy=0,dz=0,tag=!spectator]
+execute as @a at @s run kill @a[y=280,dx=0,dy=0,dz=0,tag=!spectator]
 
 #Team Selection
 kill @e[type=item,nbt={Item:{id:"minecraft:note_block"}}]
