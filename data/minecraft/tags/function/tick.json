@@ -4,7 +4,8 @@
      "skywars:match_end/enddetection",
      "skywars:dead/deathdetector",
      "skywars:ui/main_scoreboard_teams",
-     "skywars:ui/main_scoreboard.chests"
+     "skywars:ui/main_scoreboard.chests",
+     "skywars:special/special_ticking"
 
    ]
  }
