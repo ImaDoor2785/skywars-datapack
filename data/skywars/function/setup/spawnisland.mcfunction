@@ -1,4 +1,4 @@
-place template skywars:base ~ 200 ~
+place template skywars:base ~ 300 ~
 effect give @a resistance 1 99
 execute as @e[tag=base] at @e[tag=base] run tp @a ~ ~1 ~
 execute as @e[tag=base] at @e[tag=base] run setworldspawn ~ ~ ~
