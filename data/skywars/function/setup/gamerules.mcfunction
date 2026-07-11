@@ -11,3 +11,4 @@ gamerule random_tick_speed 0
 difficulty easy
 weather clear
 time set day
+title @a times 5t 1s 5t

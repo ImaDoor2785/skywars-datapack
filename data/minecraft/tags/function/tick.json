@@ -2,7 +2,9 @@
    "values":[
      "skywars:tick",
      "skywars:match_end/enddetection",
-     "skywars:dead/deathdetector"
+     "skywars:dead/deathdetector",
+     "skywars:ui/main_scoreboard_teams",
+     "skywars:ui/main_scoreboard.chests"
 
    ]
  }

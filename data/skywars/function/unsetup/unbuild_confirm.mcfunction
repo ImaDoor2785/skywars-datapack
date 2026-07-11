@@ -1,0 +1,4 @@
+tellraw @a {"text":"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!","color":"red","bold":true,"italic":false}
+tellraw @a {"text":"   ARE YOU SURE","color":"dark_red","bold":true,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:unsetup/unbuild"}}
+tellraw @a {"text":"     [UNBUILD]","color":"dark_red","bold":true,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:unsetup/unbuild"},hover_event:{action:"show_text",value:"This will reset EVERYTHING"}}
+tellraw @a {"text":"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!","color":"red","bold":true,"italic":false}
