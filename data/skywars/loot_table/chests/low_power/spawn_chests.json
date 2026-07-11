@@ -7,12 +7,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
-          "weight": 3
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_pickaxe",
-          "weight": 1
+          "weight": 3
         },
         {
           "type": "minecraft:empty",
@@ -68,17 +68,17 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:chainmail_helmet",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
           "weight": 4
         },
         {
@@ -124,7 +124,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_sword",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:empty",

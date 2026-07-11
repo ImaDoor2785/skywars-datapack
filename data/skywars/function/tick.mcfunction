@@ -22,7 +22,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:tropical_fish",components:{"min
 effect give @a[nbt={Inventory:[{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}]}] minecraft:glowing 1
 
 #Border
-execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~70 ~30 ~70 ~-70 ~-50 ~-70 air outline
+execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~70 ~50 ~70 ~-70 ~-50 ~-70 air outline
 execute at @e[tag=base] positioned ~ ~-90 ~ run kill @e[tag=!spectator,distance=76..80]
 execute as @a at @s run kill @a[y=280,dx=0,dy=0,dz=0,tag=!spectator]
 

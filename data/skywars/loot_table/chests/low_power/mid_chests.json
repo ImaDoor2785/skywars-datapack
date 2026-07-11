@@ -21,14 +21,12 @@
           "functions": [
             {
             "function": "minecraft:set_enchantments",
-            "levels": 0,
             "enchantments": {
               "minecraft:sharpness": 1
             }
             },
             {
             "function": "minecraft:set_enchantments",
-            "levels": 0,
             "enchantments": {
               "minecraft:fire_aspect": 1
             }
@@ -39,6 +37,21 @@
           "type": "minecraft:item",
           "name": "minecraft:bow",
           "weight": 3
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls":0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 4
         }
       ],
       "rolls": 1.0
