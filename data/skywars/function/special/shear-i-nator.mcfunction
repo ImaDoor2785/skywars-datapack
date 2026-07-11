@@ -1,5 +1,5 @@
 tag @s add shearer
-execute at @s run tag @e[tag=!shearer,sort=nearest,limit=1] add sheared
+execute at @s run tag @e[tag=!shearer,tag=!spectator,sort=nearest,limit=1] add sheared
 
 execute as @a[tag=sheared,sort=nearest,limit=1] at @s run summon item ~ ~ ~ {Item:{id:"minecraft:stone",Count:1b},PickupDelay:40s}
 execute as @a[tag=sheared,sort=nearest,limit=1] at @s run item replace entity @e[type=item,name="Stone",distance=..6,limit=1,sort=nearest] container.0 from entity @s armor.head
