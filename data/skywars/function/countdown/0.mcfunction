@@ -8,4 +8,5 @@ gamemode spectator @a[tag=spectator]
 execute if score -Mode:Slime options matches 2 run gamerule fall_damage false
 scoreboard players reset .Timer timer
 scoreboard objectives setdisplay sidebar skywars
+scoreboard players set .Endflag end 0
 function skywars:options/music/music_start

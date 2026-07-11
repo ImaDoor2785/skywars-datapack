@@ -9,6 +9,7 @@ scoreboard objectives add total-deaths dummy "Total Deaths"
 scoreboard objectives add health health Health
 scoreboard objectives add online dummy Online
 scoreboard objectives add team dummy Team
+scoreboard objectives add teamcheck dummy TeamCheck
 scoreboard objectives add timer dummy Timer
 scoreboard objectives add music dummy Music
 scoreboard objectives add kills minecraft.custom:minecraft.player_kills Kills

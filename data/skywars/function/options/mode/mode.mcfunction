@@ -1,7 +1,7 @@
 tellraw @a {"text":"*********************************","color":"aqua","bold":true,"italic":false}
-tellraw @a {"text":"           GAMEMODES          ","color":"gray","bold":true,"italic":false}
-tellraw @a {"text":"      [Toggle Special Weapons]","color":"dark_purple","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/special/toggle_special"}}
-tellraw @a [{"text":"   [High Power]      ","color":"green","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/gamemodes/high_power"}},{"text":"[Low Power]","color":"green","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/gamemodes/low_power"}}]
-tellraw @a {"text":"      [Slime]      ","color":"green","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/gamemodes/slime"}}
+tellraw @a {"text":"          GAMEMODES          ","color":"gray","bold":true,"italic":false}
+tellraw @a {"text":"       [Toggle Special Items]","color":"dark_purple","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/special/toggle_special"},"hover_event":{action:"show_text",value:"Toggles Vault Items"}}
+tellraw @a [{"text":"   [High Power]      ","color":"green","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/gamemodes/high_power"},"hover_event":{action:"show_text",value:"Higher Tier Armor and Weapons"}},{"text":"[Low Power]","color":"green","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/gamemodes/low_power"},"hover_event":{action:"show_text",value:"Lower Tier Armor and Weapons"}}]
+tellraw @a {"text":"       [Slime]      ","color":"green","bold":false,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/mode/gamemodes/slime"},"hover_event":{action:"show_text",value:"Focuses on Knockback"}}
 tellraw @a {"text":"                              ","color":"blue","bold":true,"italic":false}
 tellraw @a {"text":"*********************************","color":"aqua","bold":true,"italic":false}

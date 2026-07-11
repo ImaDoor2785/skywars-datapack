@@ -1,0 +1,6 @@
+tellraw @a {"text":"*********************************","color":"green","bold":true,"italic":false}
+tellraw @a {"text":"          TEAM MODE","color":"gray","bold":true,"italic":false}
+tellraw @a [{"text":"      [SOLO]      ","color":"red","bold":true,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/team/solo"},"hover_event":{action:"show_text",value:"Only 1 Person per Team"}},{"text":"[DUOS]","color":"blue","bold":true,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/team/duos"},"hover_event":{action:"show_text",value:"Up to 2 People per Team"}}]
+tellraw @a {"text":"            [CHAOS]      ","color":"dark_red","bold":true,"italic":false,"click_event":{"action":"run_command","command":"/function skywars:options/team/chaos"},"hover_event":{action:"show_text",value:"Up to 24 People per Team"}}
+tellraw @a {"text":"                              ","color":"blue","bold":true,"italic":false}
+tellraw @a {"text":"*********************************","color":"green","bold":true,"italic":false}
