@@ -1,5 +1,6 @@
 fill ~100 315 ~100 ~-100 100 ~-100 air
 kill @e[tag=base]
+kill @e[tag=spawnloot]
 function skywars:setup/spawnisland
 function skywars:setup/gamerules
 function skywars:setup/scoreboard
