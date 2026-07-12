@@ -22,6 +22,3 @@ execute as @a[scores={left=1}] run function skywars:dead/reset_player
 #Reset random scoreboard
 scoreboard players add .Random random 1
 execute if score .Random random matches 11 run scoreboard players reset .Random random
-
-
-

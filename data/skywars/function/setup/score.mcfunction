@@ -22,3 +22,4 @@ function skywars:options/team/solo
 function skywars:options/map/maps/aegis
 function skywars:options/mode/gamemodes/low_power
 function skywars:options/mode/special/on
+function skywars:options/music/musicoff

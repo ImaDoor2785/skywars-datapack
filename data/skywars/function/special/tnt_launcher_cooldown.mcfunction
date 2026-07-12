@@ -1,0 +1,1 @@
+advancement revoke @a[advancements={skywars:tnt_launcher=true}] only skywars:tnt_launcher
