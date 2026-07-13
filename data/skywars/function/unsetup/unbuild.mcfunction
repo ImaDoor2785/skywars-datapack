@@ -1,4 +1,4 @@
-fill ~100 220 ~100 ~-100 100 ~-100 air
+fill ~100 315 ~100 ~-100 100 ~-100 air
 kill @e[tag=base]
 kill @e[type=item]
 function skywars:unsetup/unspawnisland
