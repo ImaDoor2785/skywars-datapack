@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_horse_armor",
-          "weight": 100,
+          "weight": 1,
           "functions": [
             {
             "function": "minecraft:set_name",
@@ -26,6 +26,15 @@
              }
             },
             {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "§cHas a cooldown of 3 seconds"
+                }
+              ],
+              "mode":"insert"
+            },
+            {
             "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
@@ -37,38 +46,53 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
-          "weight": 3,
+          "name": "minecraft:bow",
+          "weight": 1,
           "functions": [
             {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:efficiency": 3
-            }
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "§cExplosive Bow",
+              "bold": true,
+              "italic": false
+             }
+            },
+            {
+            "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "Explosive Bow": true
+                }
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
-          "weight": 2,
+          "name": "minecraft:stone_sword",
+          "weight": 1,
           "functions": [
             {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:knockback": 5
-            }
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "§cT§fN§cT §7Sword",
+              "bold": true,
+              "italic": false
+             }
+            },
+            {
+            "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "TNT Sword": true
+                }
+              }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:flint_and_steel",
-          "weight": 8
         },
         {
           "type": "minecraft:empty",
-          "weight": 10
+          "weight": 2
         }
       ],
       "rolls": 1.0
@@ -79,51 +103,26 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_helmet",
-          "weight": 2,
-          "functions": [
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:protection": 4
-            }
-            }
-          ]
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_chestplate",
-          "weight": 2,
-          "functions": [
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:protection": 4
-            }
-            }
-          ]
+          "name": "minecraft:diamond_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_boots",
-          "weight": 2,
-          "functions": [
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:protection": 2
-            }
-            },
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:fire_protection": 5
-            }
-            }
-          ]
+          "weight": 2
         },
         {
           "type": "minecraft:empty",
-          "weight": 12
+          "weight": 8
         }
       ],
       "rolls": 2.0
@@ -133,59 +132,32 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bow",
-          "weight": 4,
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
           "functions": [
             {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:punch": 3
-            }
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "efficiency": 3
+              }
             }
           ]
         },
         {
+          "type": "minecraft:item",
+          "name": "minecraft:flint_and_steel",
+          "weight": 1
+        },
+        {
           "type": "minecraft:empty",
-          "weight": 8
+          "weight": 3
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     },
     {
       "bonus_rolls": 0.0,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_sword",
-          "weight": 4,
-          "functions": [
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:sharpness": 1
-            }
-            },
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:fire_aspect": 2
-            }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:slime_ball",
-          "weight": 1,
-          "functions": [
-            {
-            "function": "minecraft:set_enchantments",
-            "enchantments": {
-              "minecraft:knockback": 10
-            }
-            }
-          ]
-        },
         {
           "type": "minecraft:item",
           "name": "minecraft:ominous_trial_key",
@@ -214,24 +186,40 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:slime_block",
+          "name": "minecraft:tnt",
           "weight": 16
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "weight": 6,
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
+                "max": 8.0,
+                "min": 4.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "§cPrimed §fT§cN§fT",
+              "bold": true,
+              "italic": false
+             }
+            },
+            {
+            "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "Primed TNT": true
+                }
+              }
             }
-          ],
-          "name": "minecraft:ender_pearl",
-          "weight": 3
+          ]
         },
         {
           "type": "minecraft:item",
@@ -246,8 +234,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:wind_charge",
-          "weight": 3
+          "name": "minecraft:creeper_spawn_egg",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -263,22 +251,6 @@
             }
           ],
           "name": "minecraft:arrow",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_apple",
           "weight": 4
         },
         {

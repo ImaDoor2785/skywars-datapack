@@ -18,3 +18,7 @@ effect give @a[nbt={Inventory:[{id:"minecraft:tropical_fish",components:{"minecr
 
 #Double Jump
 execute if score -Mode:Slime options matches 2 run function skywars:special/double_jump
+
+#Explosive Bow
+execute if score -Mode:TNTMaddness options matches 2 run tag @e[type=arrow,nbt={inGround:1b}] add hit
+execute as @e[tag=hit] run function skywars:special/explosive_bow_ground

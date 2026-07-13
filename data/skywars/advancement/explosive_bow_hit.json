@@ -1,0 +1,40 @@
+{
+  "criteria": {
+    "hit_by_arrow": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          },
+          "direct_entity": {
+            "type": "minecraft:arrow"
+          },
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:bow"
+                ],
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "Explosive Bow": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skywars:special/explosive_bow_player"
+  }
+}

@@ -73,6 +73,7 @@ team join map -Map:Canopy
 team join mode -Mode:High_Power
 team join mode -Mode:Low_Power
 team join mode -Mode:Slime
+team join mode -Mode:TNTMaddness
  #Music
 team join music -Music:Off
 team join music -Music:Cat
