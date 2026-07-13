@@ -6,6 +6,7 @@ execute as @e[tag=spawnloot] at @s run fill ~3 ~4 ~3 ~-3 ~-1 ~-3 air replace gla
 effect give @a resistance 5 5 true
 gamemode spectator @a[tag=spectator]
 execute if score -Mode:Slime options matches 2 run gamerule fall_damage false
+execute if score -Mode:TNTMaddness options matches 2 run gamerule fall_damage false
 scoreboard players reset .Timer timer
 scoreboard objectives setdisplay sidebar skywars
 scoreboard players set .Endflag end 0
