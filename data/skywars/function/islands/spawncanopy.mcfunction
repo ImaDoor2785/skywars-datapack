@@ -1,4 +1,4 @@
-execute as @e[tag=base] at @e[tag=base] run fill ~68 ~-10 ~68 ~-68 ~-150 ~-68 air
+execute as @e[tag=base] at @e[tag=base] run fill ~100 ~-10 ~100 ~-100 ~-150 ~-100 air
 execute as @e[tag=base] at @e[tag=base] run place template skywars:canopy1 ~-33 ~-101 ~-35
 execute as @e[tag=base] at @e[tag=base] run place template skywars:canopy2 ~15 ~-101 ~-35
 execute as @e[tag=base] at @e[tag=base] run place template skywars:canopy3 ~-33 ~-101 ~13

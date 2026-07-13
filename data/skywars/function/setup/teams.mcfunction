@@ -69,6 +69,10 @@ team join map -Map:Dwarven
 team join map -Map:Hibiscus
 team join map -Map:Aegis
 team join map -Map:Canopy
+team join map -Map:Sunken
+team join map -Map:Summorial
+team join map -Map:Garage
+team join map -Map:Honeycomb
  #Gamemodes
 team join mode -Mode:High_Power
 team join mode -Mode:Low_Power

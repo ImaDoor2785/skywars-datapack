@@ -1,4 +1,4 @@
-execute as @e[tag=base] at @e[tag=base] run fill ~68 ~-10 ~68 ~-68 ~-150 ~-68 air
+execute as @e[tag=base] at @e[tag=base] run fill ~100 ~-10 ~100 ~-100 ~-150 ~-100 air
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus10 ~-12 ~-70 ~-11
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus9 ~36 ~-118 ~38
 execute as @e[tag=base] at @e[tag=base] run place template skywars:hibiscus8 ~-12 ~-118 ~38

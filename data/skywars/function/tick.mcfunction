@@ -4,8 +4,8 @@ execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run effect give @a[dx=24,dz
 execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run tag @a[dx=24,dz=24] add spectator
 
 #Border
-execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~70 ~50 ~70 ~-70 ~-50 ~-70 air outline
-execute at @e[tag=base] positioned ~ ~-90 ~ run kill @e[tag=!spectator,distance=76..80]
+execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~90 ~50 ~90 ~-90 ~-50 ~-90 air outline
+execute at @e[tag=base] positioned ~ ~-90 ~ run kill @e[tag=!spectator,distance=94..100]
 execute as @a at @s run kill @a[y=280,dx=0,dy=0,dz=0,tag=!spectator]
 
 #Team Selection
