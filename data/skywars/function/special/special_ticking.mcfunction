@@ -21,4 +21,8 @@ execute if score -Mode:Slime options matches 2 run function skywars:special/doub
 
 #Explosive Bow
 execute if score -Mode:TNTMaddness options matches 2 run tag @e[type=arrow,nbt={inGround:1b}] add hit
-execute as @e[tag=hit] run function skywars:special/explosive_bow_ground
+execute as @e[tag=hit] run function skywars:special/explosive_bow/explosive_bow_ground
+
+#Knockback Kart
+execute as @r[tag=kart] at @s run tp @n[type=trident] ^ ^1 ^1.5
+execute as @a[tag=kart] run effect give @s minecraft:speed 1 2 true

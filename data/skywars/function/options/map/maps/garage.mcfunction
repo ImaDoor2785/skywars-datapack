@@ -1,4 +1,4 @@
-scoreboard players set -Map:Garage options 2
+scoreboard players set -Map:Garage options 1
 scoreboard players reset -Map:Aegis options
 scoreboard players reset -Map:Dwarven options
 scoreboard players reset -Map:Hibiscus options

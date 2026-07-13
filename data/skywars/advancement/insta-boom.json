@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "skywars:special/insta-boom"
+        "function": "skywars:special/insta-boom/insta-boom"
     }
 }

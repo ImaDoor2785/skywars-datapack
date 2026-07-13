@@ -35,6 +35,6 @@
     }
   },
   "rewards": {
-    "function": "skywars:special/explosive_bow_player"
+    "function": "skywars:special/explosive_bow/explosive_bow_player"
   }
 }

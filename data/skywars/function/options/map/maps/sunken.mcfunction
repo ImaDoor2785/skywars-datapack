@@ -1,4 +1,4 @@
-scoreboard players set -Map:Sunken options 2
+scoreboard players set -Map:Sunken options 1
 scoreboard players reset -Map:Summorial options
 scoreboard players reset -Map:Honeycomb options
 scoreboard players reset -Map:Garage options

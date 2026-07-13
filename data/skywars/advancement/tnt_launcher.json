@@ -11,6 +11,6 @@
       }
     },
     "rewards": {
-      "function": "skywars:special/tnt_launcher_click"
+      "function": "skywars:special/tnt_launcher/tnt_launcher_click"
   }
 }

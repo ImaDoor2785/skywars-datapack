@@ -4,13 +4,13 @@
         "trigger": "minecraft:using_item",
         "conditions": {
           "item": {
-            "items": "minecraft:shears",
-            "predicates": {"minecraft:custom_data": {"Shear-I-Nator3000": true}}
+            "items": "minecraft:mace",
+            "predicates": {"minecraft:custom_data": {"Throngler": true}}
          }
         }
       }
     },
     "rewards": {
-      "function": "skywars:special/shear-i-nator/shear-i-nator"
+      "function": "skywars:special/throngler/throngler_click"
   }
 }

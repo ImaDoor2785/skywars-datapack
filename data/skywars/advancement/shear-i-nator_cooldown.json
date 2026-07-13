@@ -11,6 +11,6 @@
       }
     },
     "rewards": {
-      "function": "skywars:special/shear-i-nator/shear-i-nator"
+      "function": "skywars:special/shear-i-nator/shear-i-nator_cooldown"
   }
 }

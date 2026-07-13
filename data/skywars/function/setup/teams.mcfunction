@@ -64,6 +64,7 @@ tag @a add spectator
  #Teams
 team join team -TEAM:SOLO
 team join team -TEAM:DUOS
+team join team -TEAM:CHAOS
  #Maps
 team join map -Map:Dwarven
 team join map -Map:Hibiscus

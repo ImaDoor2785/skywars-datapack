@@ -4,9 +4,9 @@ execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run effect give @a[dx=24,dz
 execute as @e[tag=base] at @s positioned ~-12 ~ ~-12 run tag @a[dx=24,dz=24] add spectator
 
 #Border
-execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~90 ~50 ~90 ~-90 ~-50 ~-90 air outline
-execute at @e[tag=base] positioned ~ ~-90 ~ run kill @e[tag=!spectator,distance=94..100]
-execute as @a at @s run kill @a[y=280,dx=0,dy=0,dz=0,tag=!spectator]
+execute at @e[tag=base] positioned ~ ~-90 ~ run fill ~100 ~50 ~100 ~-100 ~-50 ~-100 air outline
+execute at @e[tag=base] positioned ~ ~-90 ~ run kill @e[tag=!spectator,distance=110..115]
+execute as @e at @s run kill @s[y=280,dx=0,dy=0,dz=0,tag=!spectator]
 
 #Team Selection
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"SELECT_TEAM":true}}}}]

@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "skywars:special/primed_tnt"
+        "function": "skywars:special/primed_tnt/primed_tnt"
     }
 }

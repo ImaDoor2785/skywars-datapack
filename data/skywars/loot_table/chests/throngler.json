@@ -29,6 +29,22 @@
             "mode": "insert"
             },
             {
+            "function": "minecraft:set_components",
+             "components": {
+                "consumable":{
+                    "consume_seconds": 10000
+                }            
+             }
+            },
+            {
+            "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": {
+                  "Throngler": true
+                }
+              }
+            },
+            {
             "function": "minecraft:set_enchantments",
             "enchantments": {
               "minecraft:infinity": 1

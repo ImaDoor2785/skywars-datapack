@@ -1,4 +1,5 @@
 scoreboard players reset -TEAM:DUOS options
+scoreboard players reset -TEAM:CHAOS options
 scoreboard players set -TEAM:SOLO options 3
 scoreboard players set .Teamlimit team 1
 

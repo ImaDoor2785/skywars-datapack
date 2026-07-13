@@ -1,4 +1,4 @@
-scoreboard players set -Map:Honeycomb options 2
+scoreboard players set -Map:Honeycomb options 1
 scoreboard players reset -Map:Garage options
 scoreboard players reset -Map:Aegis options
 scoreboard players reset -Map:Dwarven options

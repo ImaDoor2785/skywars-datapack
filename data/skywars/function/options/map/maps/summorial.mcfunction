@@ -1,4 +1,4 @@
-scoreboard players set -Map:Summorial options 2
+scoreboard players set -Map:Summorial options 1
 scoreboard players reset -Map:Honeycomb options
 scoreboard players reset -Map:Garage options
 scoreboard players reset -Map:Aegis options

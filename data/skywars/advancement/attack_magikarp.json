@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "skywars:special/magikarp_hit"
+    "function": "skywars:special/magikarp/magikarp_hit"
   }
 }

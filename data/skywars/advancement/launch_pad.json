@@ -18,6 +18,6 @@
         }
     },
     "rewards": {
-        "function": "skywars:special/launch_pad"
+        "function": "skywars:special/launch_pad/launch_pad"
     }
 }
