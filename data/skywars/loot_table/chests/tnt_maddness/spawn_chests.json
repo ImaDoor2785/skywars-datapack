@@ -37,11 +37,19 @@
                     {
                       "id": "minecraft:fire_resistance",
                       "amplifier": 0,
-                      "duration": 180
+                      "duration": 2400
                     }
                   ]
                 }
               }
+            },
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "§6Potion if Fire Resistance",
+              "bold": true,
+              "italic": false
+             }
             }
           ]
         },
@@ -58,11 +66,19 @@
                     {
                       "id": "minecraft:slowness",
                       "amplifier": 2,
-                      "duration": 5
+                      "duration": 80
                     }
                   ]
                 }
               }
+            },
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "§7Potion if Slowness",
+              "bold": true,
+              "italic": false
+             }
             }
           ]
         },

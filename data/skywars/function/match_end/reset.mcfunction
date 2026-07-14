@@ -40,13 +40,13 @@ scoreboard players set .Dark_Blue online 0
 scoreboard players set .Dark_Red online 0
 
 title @a[team=dead] title {"text":"Game Over","color":"dark_red"}
+effect give @a slow_falling 2 1
 execute as @e[tag=base] at @s run tp @a @s
-team leave @a
 gamemode adventure @a
 gamerule fall_damage true
+effect clear @a jump_boost
 clear @a
 kill @e[type=!player,tag=!base]
-effect clear @a
 xp set @a 0 levels
 xp set @a 0
 tag @a remove DJ

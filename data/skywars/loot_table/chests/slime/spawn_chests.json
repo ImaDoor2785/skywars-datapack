@@ -88,11 +88,19 @@
                     {
                       "id": "minecraft:jump_boost",
                       "amplifier": 0,
-                      "duration": 180
+                      "duration": 600
                     }
                   ]
                 }
               }
+            },
+            {
+            "function": "minecraft:set_name",
+            "name": {
+              "text": "§aPotion if Leaping",
+              "bold": true,
+              "italic": false
+             }
             }
           ]
         },

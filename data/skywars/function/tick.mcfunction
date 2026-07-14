@@ -22,7 +22,7 @@ item replace entity @a[tag=spectator] hotbar.8 with minecraft:paper[minecraft:it
 execute as @e[tag=spectator,nbt={SelectedItem:{components:{"minecraft:custom_data":{"Show_Kills":true}}}}] run scoreboard objectives setdisplay sidebar kills
 execute as @e[tag=spectator,nbt={SelectedItem:{components:{"minecraft:custom_data":{"Show_Deaths":true}}}}] run scoreboard objectives setdisplay sidebar total-deaths
 execute as @e[tag=spectator,nbt={SelectedItem:{components:{"minecraft:custom_data":{"Show_Wins":true}}}}] run scoreboard objectives setdisplay sidebar wins
-execute as @e[tag=spectator] unless entity @s[tag=spectator,nbt={SelectedItem:{id:"minecraft:paper"}}] run scoreboard objectives setdisplay sidebar options
+execute if entity @a[tag=spectator,nbt={SelectedItem:{id:"minecraft:note_block"}}] run scoreboard objectives setdisplay sidebar options
 
 #Spectator
 execute at @a[scores={dead=1..}] run particle minecraft:explosion_emitter ~ ~ ~
