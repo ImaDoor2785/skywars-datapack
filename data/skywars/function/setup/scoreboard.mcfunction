@@ -18,6 +18,7 @@ scoreboard objectives add left minecraft.custom:minecraft.leave_game Offline
 scoreboard objectives add skywars dummy [{"text":"Modern","bold":true,"color":"aqua"}," ",{"text":"Skywars","bold":true,"color":"light_purple"}]
 scoreboard objectives add options dummy [{"text":"OPTIONS","color":"gray","bold":true}]
 scoreboard objectives add random dummy Random
+scoreboard objectives add shear_i_nator_cooldown dummy
 
 
 #Scoreboard Displays

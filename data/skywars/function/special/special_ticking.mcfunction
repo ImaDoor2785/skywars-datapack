@@ -16,8 +16,15 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:tropical_fish",components:{"min
 execute as @e[type=item,nbt={Item:{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}}] at @s run particle dripping_water ~ ~0.5 ~ 0.2 0.2 0.2 3 1
 effect give @a[nbt={Inventory:[{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}]}] minecraft:glowing 1
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:honeycomb",components:{"minecraft:custom_name":{text:"THE BEEKEEPER"}}}}] at @s run playsound block.honey_block.slide ambient @a ~ ~ ~ 5 1
+execute as @e[type=item,nbt={Item:{id:"minecraft:honeycomb",components:{"minecraft:custom_name":{text:"THE BEEKEEPER"}}}}] at @s run particle dripping_honey ~ ~0.5 ~ 0.2 0.2 0.2 3 1
+effect give @a[nbt={Inventory:[{id:"minecraft:honeycomb",components:{"minecraft:custom_name":{text:"THE BEEKEEPER"}}}]}] minecraft:glowing 1
+
 #Double Jump
 execute if score -Mode:Slime options matches 2 run function skywars:special/double_jump
+
+#Cooldowns
+scoreboard players remove @a[scores={shear_i_nator_cooldown=1..}] shear_i_nator_cooldown 1
 
 #Explosive Bow
 execute if score -Mode:TNTMaddness options matches 2 run tag @e[type=arrow,nbt={inGround:1b}] add hit
