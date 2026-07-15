@@ -9,11 +9,11 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:mace",components:{"minecraft:cu
 effect give @a[nbt={Inventory:[{id:"minecraft:mace",components:{"minecraft:custom_name":{text:"THE THRONGLER"}}}]}] minecraft:glowing 1
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}}] at @s run playsound minecraft:block.cobweb.place ambient @a ~ ~ ~ 5 0.2
-execute as @e[type=item,nbt={Item:{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}}] at @s run particle block{block_state:{Name:white_wool}} ~ ~0.5 ~ 0 0 0 1 1
+execute as @e[type=item,nbt={Item:{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}}] at @s run particle block{block_state:{Name:white_wool}} ~.2 ~0.5 ~.2 0 0 0 1 1
 effect give @a[nbt={Inventory:[{id:"minecraft:shears",components:{"minecraft:custom_name":{text:"Shear-I-Nator3000"}}}]}] minecraft:glowing 1
 
 execute as @e[type=item,nbt={Item:{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}}] at @s run playsound entity.player.splash ambient @a ~ ~ ~ 5 2
-execute as @e[type=item,nbt={Item:{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}}] at @s run particle dripping_water ~ ~0.5 ~ 0 0 0 3 1
+execute as @e[type=item,nbt={Item:{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}}] at @s run particle dripping_water ~ ~0.5 ~ 0.2 0.2 0.2 3 1
 effect give @a[nbt={Inventory:[{id:"minecraft:tropical_fish",components:{"minecraft:custom_name":{text:"MagiKarp"}}}]}] minecraft:glowing 1
 
 #Double Jump
@@ -26,3 +26,6 @@ execute as @e[tag=hit] run function skywars:special/explosive_bow/explosive_bow_
 #Knockback Kart
 execute as @r[tag=kart] at @s run tp @n[type=trident] ^ ^1 ^1.5
 execute as @a[tag=kart] run effect give @s minecraft:speed 1 2 true
+
+#THE BEEKEEPER
+execute as @a[tag=beekeeped] at @s run particle falling_honey ~ ~ ~ 1 1 1 3 5

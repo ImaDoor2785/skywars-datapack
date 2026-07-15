@@ -11,7 +11,7 @@ execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis2 ~-8 ~-
 execute as @e[tag=base] at @e[tag=base] run place template skywars:aegis1 ~-56 ~-110 ~-56
 kill @e[type=item]
 execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-77 ~ air
-execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-77 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/shear_i_nator"}}
+execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-77 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/special_items/shear_i_nator"}}
 
 
 

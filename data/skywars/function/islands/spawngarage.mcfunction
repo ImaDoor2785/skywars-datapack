@@ -13,9 +13,9 @@ execute as @e[tag=base] at @e[tag=base] run place template skywars:garage11 ~-32
 execute as @e[tag=base] at @e[tag=base] run place template skywars:garage12 ~16 ~-95 ~49
 kill @e[type=item]
 execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~4 ~-87 ~ air
-execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~4 ~-87 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/shear_i_nator"}}
+execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~4 ~-87 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/special_items/shear_i_nator"}}
 execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~-4 ~-87 ~ air
-execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~-4 ~-87 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/shear_i_nator"}}
+execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~-4 ~-87 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/special_items/shear_i_nator"}}
 
 
 

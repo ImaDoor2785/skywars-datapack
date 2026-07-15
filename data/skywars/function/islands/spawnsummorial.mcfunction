@@ -9,7 +9,7 @@ execute as @e[tag=base] at @e[tag=base] run place template skywars:summorial7 ~-
 execute as @e[tag=base] at @e[tag=base] run place template skywars:summorial8 ~-20 ~-100 ~28
 kill @e[type=item]
 execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-84 ~ air
-execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-84 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/shear_i_nator"}}
+execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-84 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/special_items/shear_i_nator"}}
 
 
 
