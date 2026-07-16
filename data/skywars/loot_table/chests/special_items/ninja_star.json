@@ -6,14 +6,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tropical_fish",
+          "name": "minecraft:nether_star",
           "weight": 1,
           "functions": [
             {
             "function": "minecraft:set_name",
             "name": {
-              "text": "MagiKarp",
-              "color": "#0ceec4",
+              "text": "Ninja Star",
+              "color": "#ffffff",
               "bold": true,
               "italic": false
              }
@@ -22,28 +22,8 @@
             "function": "minecraft:set_lore",
             "lore": [
               {
-                "text": "*Splash*",
-                "color": "#2f28f8"
-              }
-            ],
-            "mode": "insert"
-         },
-            {
-            "function": "minecraft:set_lore",
-            "lore": [
-              {
-                "text": "*Drowns Player*",
-                "color": "#2f28f8"
-              }
-            ],
-            "mode": "insert"
-          },
-            {
-            "function": "minecraft:set_lore",
-            "lore": [
-              {
-                "text": "*Splash*",
-                "color": "#2f28f8"
+                "text": "*Disappears*",
+                "color": "#454545"
               }
             ],
             "mode": "insert"
@@ -51,16 +31,24 @@
             {
             "function": "minecraft:set_enchantments",
             "enchantments": {
-              "minecraft:power": 20
+              "minecraft:swift_sneak": 5
             }
             },
             {
             "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "MagiKarp": true
+                  "Ninja Star": true
                 }
               }
+            },
+            {
+            "function": "minecraft:set_components",
+             "components": {
+                "consumable":{
+                    "consume_seconds": 10000
+                }            
+             }
             }
           ]
         }

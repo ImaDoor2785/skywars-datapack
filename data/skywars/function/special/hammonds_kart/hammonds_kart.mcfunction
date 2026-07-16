@@ -1,0 +1,3 @@
+scoreboard players set @s cooldown 60
+effect give @s slowness 1 5
+damage @s 10 cramming by @p[nbt=!{active_effects:[{id:"minecraft:slowness"}]},nbt={SelectedItem:{id:"minecraft:minecart",components:{"minecraft:custom_name":{text:"Hammond's Kart"}}}}] from @p[nbt=!{active_effects:[{id:"minecraft:slowness"}]},nbt={SelectedItem:{id:"minecraft:minecart",components:{"minecraft:custom_name":{text:"Hammond's Kart"}}}}]

@@ -13,7 +13,7 @@
             "function": "minecraft:set_name",
             "name": {
               "text": "THE BEEKEEPER",
-              "color": "#ffe100",
+              "color": "#fff200",
               "bold": true,
               "italic": false
              }
@@ -23,11 +23,11 @@
             "lore": [
               {
                 "text": "Legends say Jason Statham",
-                "color": "#f1b739"
+                "color": "#ff9900"
               },
               {
                 "text": "has held this very item",
-                "color": "#f1b739"
+                "color": "#ff9900"
               }
             ],
             "mode": "insert"

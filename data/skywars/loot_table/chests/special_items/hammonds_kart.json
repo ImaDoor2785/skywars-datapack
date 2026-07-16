@@ -6,59 +6,47 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tropical_fish",
+          "name": "minecraft:minecart",
           "weight": 1,
           "functions": [
             {
             "function": "minecraft:set_name",
             "name": {
-              "text": "MagiKarp",
-              "color": "#0ceec4",
+              "text": "Hammond's Kart",
+              "color": "#ff0000",
               "bold": true,
               "italic": false
              }
-         },
+            },
             {
             "function": "minecraft:set_lore",
             "lore": [
               {
-                "text": "*Splash*",
-                "color": "#2f28f8"
+                "text": "Gets 800 Horse Power",
+                "color": "#ffa4a4"
               }
             ],
             "mode": "insert"
-         },
-            {
-            "function": "minecraft:set_lore",
-            "lore": [
-              {
-                "text": "*Drowns Player*",
-                "color": "#2f28f8"
-              }
-            ],
-            "mode": "insert"
-          },
-            {
-            "function": "minecraft:set_lore",
-            "lore": [
-              {
-                "text": "*Splash*",
-                "color": "#2f28f8"
-              }
-            ],
-            "mode": "insert"
-         },
+            },
             {
             "function": "minecraft:set_enchantments",
             "enchantments": {
-              "minecraft:power": 20
+              "minecraft:soul_speed": 10
             }
+            },
+            {
+            "function": "minecraft:set_components",
+             "components": {
+                "consumable":{
+                    "consume_seconds": 10000
+                }            
+             }
             },
             {
             "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "MagiKarp": true
+                  "Hammond's Kart": true
                 }
               }
             }

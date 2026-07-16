@@ -1,9 +1,8 @@
 #Scoreboards
 scoreboard objectives add alive dummy Alive
 scoreboard objectives add end dummy End
-scoreboard objectives add duration dummy
-scoreboard objectives add jump custom:jump
-scoreboard objectives add click used:carrot_on_a_stick
+scoreboard objectives add duration dummy Duration
+scoreboard objectives add jump custom:jump Jump
 scoreboard objectives add dead deathCount Dead
 scoreboard objectives add health health Health
 scoreboard objectives add online dummy Online
@@ -18,7 +17,8 @@ scoreboard objectives add left minecraft.custom:minecraft.leave_game Offline
 scoreboard objectives add skywars dummy [{"text":"Modern","bold":true,"color":"aqua"}," ",{"text":"Skywars","bold":true,"color":"light_purple"}]
 scoreboard objectives add options dummy [{"text":"OPTIONS","color":"gray","bold":true}]
 scoreboard objectives add random dummy Random
-scoreboard objectives add shear_i_nator_cooldown dummy
+scoreboard objectives add cooldown dummy Cooldown
+scoreboard objectives add tnt_launcher_cooldown dummy "TNT Launcher Cooldown"
 
 
 #Scoreboard Displays

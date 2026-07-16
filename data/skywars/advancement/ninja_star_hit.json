@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "hit_by_magikarp": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player",
+            "equipment": {
+              "mainhand": {
+                "items": ["minecraft:nether_star"],
+                "predicates": {"minecraft:custom_data": {"Ninja Star": true}}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "skywars:special/ninja_star/ninja_star_hit"
+  }
+}

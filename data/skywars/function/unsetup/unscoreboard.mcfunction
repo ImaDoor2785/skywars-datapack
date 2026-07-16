@@ -3,11 +3,11 @@ scoreboard objectives remove alive
 scoreboard objectives remove end
 scoreboard objectives remove duration
 scoreboard objectives remove jump
-scoreboard objectives remove click
 scoreboard objectives remove dead
 scoreboard objectives remove total-deaths
 scoreboard objectives remove health
 scoreboard objectives remove online
+scoreboard objectives remove teamcheck
 scoreboard objectives remove team
 scoreboard objectives remove timer
 scoreboard objectives remove music
@@ -17,3 +17,5 @@ scoreboard objectives remove left
 scoreboard objectives remove skywars
 scoreboard objectives remove options
 scoreboard objectives remove random
+scoreboard objectives remove cooldown
+scoreboard objectives remove tnt_launcher_cooldown

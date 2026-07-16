@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "using_item": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:nether_star",
+            "predicates": {"minecraft:custom_data": {"Ninja Star": true}}
+         }
+        }
+      }
+    },
+    "rewards": {
+      "function": "skywars:special/ninja_star/ninja_star_stealth"
+  }
+}

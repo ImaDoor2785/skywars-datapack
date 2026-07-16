@@ -1,6 +1,5 @@
 fill ~100 315 ~100 ~-100 100 ~-100 air
-kill @e[tag=base]
-kill @e[type=item]
+kill @e
 function skywars:unsetup/unspawnisland
 function skywars:unsetup/ungamerules
 function skywars:unsetup/unscoreboard

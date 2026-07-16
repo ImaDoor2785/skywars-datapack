@@ -9,7 +9,6 @@ execute as @e[tag=base] at @e[tag=base] run place template skywars:sunken7 ~-63 
 execute as @e[tag=base] at @e[tag=base] run place template skywars:sunken8 ~-15 ~-107 ~33
 execute as @e[tag=base] at @e[tag=base] run place template skywars:sunken9 ~33 ~-107 ~33
 kill @e[type=item]
-execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-91 ~ air
 execute at @e[tag=base] if score -Special:On options matches -1 run setblock ~ ~-91 ~ minecraft:vault[ominous=true]{config:{key_item:{count:1,id:"minecraft:ominous_trial_key"},loot_table:"skywars:chests/special_items/magikarp"}}
 
 

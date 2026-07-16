@@ -13,7 +13,7 @@
             "function": "minecraft:set_name",
             "name": {
               "text": "CAMPER BOW",
-              "color": "#ebee0c",
+              "color": "#51ff00",
               "bold": true,
               "italic": false
              }
@@ -23,7 +23,7 @@
             "lore": [
               {
                 "text": "He who holds the bow fears the shower",
-                "color": "#f1b739"
+                "color": "#fff700"
               }
             ],
             "mode": "insert"
