@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_axe",
+          "name": "minecraft:golden_axe",
           "weight": 3,
           "functions": [
             {

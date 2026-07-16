@@ -19,6 +19,7 @@ scoreboard objectives add options dummy [{"text":"OPTIONS","color":"gray","bold"
 scoreboard objectives add random dummy Random
 scoreboard objectives add cooldown dummy Cooldown
 scoreboard objectives add tnt_launcher_cooldown dummy "TNT Launcher Cooldown"
+scoreboard objectives add gerrys_boots custom:sneak_time "Gerry's Boots"
 
 
 #Scoreboard Displays

@@ -6,51 +6,54 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:honeycomb",
+          "name": "minecraft:netherite_boots",
           "weight": 1,
           "functions": [
             {
             "function": "minecraft:set_name",
             "name": {
-              "text": "THE BEEKEEPER",
-              "color": "#fff200",
+              "text": "Gerry's Boots",
+              "color": "#000dff",
               "bold": true,
               "italic": false
              }
-            },
+         },
             {
             "function": "minecraft:set_lore",
             "lore": [
               {
-                "text": "Legends say Jason Statham",
-                "color": "#ff9900"
+                "text": "You can still hear him",
+                "color": "#8000ff"
               },
               {
-                "text": "has held this very item",
-                "color": "#ff9900"
+                "text": "singing in the distance",
+                "color": "#8000ff"
+              },
+              {
+                "text": "(Hold Shift to Launch)",
+                "color": "#ff00ee",
+                "font": "include/unifont"
               }
             ],
             "mode": "insert"
+         },
+            {
+            "function": "minecraft:set_enchantments",
+            "enchantments": {
+              "minecraft:depth_strider": 10
+            }
             },
             {
             "function": "minecraft:set_enchantments",
             "enchantments": {
-              "minecraft:density": 10
+              "minecraft:feather_falling": 10
             }
-            },
-            {
-            "function": "minecraft:set_components",
-             "components": {
-                "consumable":{
-                    "consume_seconds": 10000
-                }            
-             }
             },
             {
             "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_data": {
-                  "THE BEEKEEPER": true
+                  "Gerry's Boots": true
                 }
               }
             }

@@ -67,11 +67,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_axe",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:stone_sword",
           "weight": 3
         },
@@ -87,7 +82,7 @@
                   "custom_effects": [
                     {
                       "id": "minecraft:jump_boost",
-                      "amplifier": 0,
+                      "amplifier": 1,
                       "duration": 600
                     }
                   ]

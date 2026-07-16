@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "using_item": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:honeycomb",
+            "predicates": {"minecraft:custom_data": {"THE BEEKEEPER": true}}
+         }
+        }
+      }
+    },
+    "rewards": {
+      "function": "skywars:special/the_beekeeper/beekeeper_click"
+  }
+}

@@ -43,9 +43,14 @@ scoreboard players remove @a[scores={tnt_launcher_cooldown=1..}] tnt_launcher_co
 execute if score -Mode:TNTMaddness options matches 2 run tag @e[type=arrow,nbt={inGround:1b}] add hit
 execute as @e[tag=hit] run function skywars:special/explosive_bow/explosive_bow_ground
 
-#Knockback Kart
-execute as @a if entity @a[distance=.1,nbt={SelectedItem:{id:"minecraft:minecart",components:{"minecraft:custom_name":{text:"Hammond's Kart"}}}}] unless entity @s[scores={cooldown=1..}] run function skywars:special/hammonds_kart/hammonds_kart
+#Hammond's Kart
+execute as @a[tag=!spectator] at @s if entity @a[distance=.5..1,nbt={SelectedItem:{id:"minecraft:minecart",components:{"minecraft:custom_name":{text:"Hammond's Kart"}}}}] unless entity @s[scores={cooldown=1..}] run function skywars:special/hammonds_kart/hammonds_kart
 
 #THE BEEKEEPER
 execute as @a[tag=beekeeped] at @s run particle falling_honey ~ ~ ~ 1 1 1 3 5
 tag @a[scores={cooldown=0}] remove beekeeped
+
+#Gerry's Boots
+scoreboard players reset @a[predicate=skywars:sneak] gerrys_boots
+execute as @a[nbt={OnGround:1b}] if items entity @s armor.feet netherite_boots[custom_data={"Gerry's Boots":true}] if score @s gerrys_boots matches 15 run effect give @s levitation 1 23 true
+function skywars:special/gerrys_boots/gerrys_boots

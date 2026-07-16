@@ -19,3 +19,4 @@ scoreboard objectives remove options
 scoreboard objectives remove random
 scoreboard objectives remove cooldown
 scoreboard objectives remove tnt_launcher_cooldown
+scoreboard objectives remove gerrys_boots
