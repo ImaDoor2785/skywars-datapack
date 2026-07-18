@@ -1,3 +1,4 @@
+scoreboard players set .Music cooldown 1925
 scoreboard players set -Music:Mellohi options 0
 scoreboard players reset -Music:Cat options
 scoreboard players reset -Music:Off options
@@ -22,4 +23,4 @@ scoreboard players reset -Music:Lava_Chicken options
 scoreboard players reset -Music:Pigstep options
 
 stopsound @a
-playsound music_disc.mellohi ambient @a ~ ~ ~ 100
+execute at @e[tag=base] run playsound music_disc.mellohi ambient @a ~ ~ ~ 100

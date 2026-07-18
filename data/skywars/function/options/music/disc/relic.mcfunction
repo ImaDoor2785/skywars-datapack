@@ -1,3 +1,4 @@
+scoreboard players set .Music cooldown 4385
 scoreboard players set -Music:Relic options 0
 scoreboard players reset -Music:Tears options
 scoreboard players reset -Music:Cat options 
@@ -23,4 +24,4 @@ scoreboard players reset -Music:Pigstep options
 
 
 stopsound @a
-playsound music_disc.relic ambient @a ~ ~ ~ 100
+execute at @e[tag=base] run playsound music_disc.relic ambient @a ~ ~ ~ 100

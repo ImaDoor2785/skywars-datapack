@@ -1,3 +1,4 @@
+scoreboard players set .Music cooldown 2965
 scoreboard players set -Music:Pigstep options 0
 scoreboard players reset -Music:Off options
 scoreboard players reset -Music:13 options
@@ -22,4 +23,4 @@ scoreboard players reset -Music:Tears options
 scoreboard players reset -Music:Lava_Chicken options
 
 stopsound @a
-playsound music_disc.pigstep ambient @a ~ ~ ~ 100
+execute at @e[tag=base] run playsound music_disc.pigstep ambient @a ~ ~ ~ 100

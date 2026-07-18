@@ -2,6 +2,7 @@
 scoreboard players set .Onlinelimit online 1
 scoreboard players set .Endflag end 2
 scoreboard players set .Teamlimit team 1
+scoreboard players set .Music cooldown 0
 
 #Team Scores
 scoreboard players set .Red team 0
@@ -19,7 +20,7 @@ scoreboard players set .Dark_Red team 0
 
 #Scoreboard Setup
 function skywars:options/team/solo
-function skywars:options/map/maps/aegis
+function skywars:options/map/maps/randommap
 function skywars:options/mode/gamemodes/low_power
 function skywars:options/mode/special/on
 function skywars:options/music/musicoff

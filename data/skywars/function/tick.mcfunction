@@ -34,3 +34,7 @@ execute as @a[scores={left=1}] run function skywars:dead/reset_player
 #Reset random scoreboard
 scoreboard players add .Random random 1
 execute if score .Random random matches 11 run scoreboard players reset .Random random
+
+#Music
+execute if score .Music cooldown matches 1.. run scoreboard players remove .Music cooldown 1
+execute if score .Music cooldown matches 1 run function skywars:options/music/musicoff
