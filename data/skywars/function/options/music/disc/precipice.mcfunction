@@ -21,6 +21,5 @@ scoreboard players reset -Music:Relic options
 scoreboard players reset -Music:5 options
 scoreboard players reset -Music:Tears options
 scoreboard players reset -Music:Lava_Chicken options
-
 stopsound @a
 execute at @e[tag=base] run playsound music_disc.precipice ambient @a ~ ~ ~ 100

@@ -21,7 +21,5 @@ scoreboard players reset -Music:Otherside options
 scoreboard players reset -Music:5 options
 scoreboard players reset -Music:Lava_Chicken options
 scoreboard players reset -Music:Pigstep options
-
-
 stopsound @a
 execute at @e[tag=base] run playsound music_disc.relic ambient @a ~ ~ ~ 100

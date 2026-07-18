@@ -20,6 +20,4 @@ scoreboard players reset -Music:13 options
 scoreboard players reset -Music:Tears options
 scoreboard players reset -Music:Lava_Chicken options
 scoreboard players reset -Music:Pigstep options
-
-
 stopsound @a
